@@ -88,10 +88,7 @@ export const DualHero: React.FC<DualHeroProps> = ({
             <div className="text-left">
               <div className="flex items-center gap-1.5">
                 <span className="text-2xl sm:text-3xl lg:text-4xl font-black text-[#0D3B66] font-heading tracking-tight">
-                  SUSTUNE
-                </span>
-                <span className="text-2xl sm:text-3xl lg:text-4xl font-black text-[#C99738] font-heading tracking-tight">
-                  CARE
+                  SustuneCare
                 </span>
               </div>
               <span className="text-[10px] sm:text-xs font-black text-[#0073B7] uppercase tracking-widest block">
@@ -104,7 +101,7 @@ export const DualHero: React.FC<DualHeroProps> = ({
           <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black text-[#0D3B66] font-heading tracking-tight leading-[1.12]">
             Care for your property. <br />
             <span className="text-[#0A8754]">Care for your parents.</span> <br />
-            <span className="gold-gradient-text">Peace of mind for you.</span>
+            <span className="gold-gradient-text">Care for your peace of mind.</span>
           </h1>
 
           {/* Brief Text - Goal is to get visitors interested enough to click/enquire */}
@@ -114,13 +111,13 @@ export const DualHero: React.FC<DualHeroProps> = ({
 
           {/* Action CTAs: Book Virtual Consultation + 24/7 Hotline + Survey */}
           <div className="pt-2 flex flex-wrap items-center justify-center gap-3">
-            <button
+            {/* <button
               onClick={() => onOpenConsultModal('bundle')}
               className="px-6 py-3.5 rounded-xl text-xs sm:text-sm font-extrabold text-white bg-gradient-to-r from-[#0073B7] via-[#0D3B66] to-[#082542] hover:brightness-110 shadow-[0_8px_25px_rgba(0,115,183,0.3)] transition-all cursor-pointer flex items-center gap-2 group"
             >
               <span>Book Virtual NRI Consultation</span>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-            </button>
+            </button> */}
 
             <a
               href="tel:+918007878863"
